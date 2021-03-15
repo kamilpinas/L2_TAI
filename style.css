@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: aquamarine;
     margin:auto;
@@ -11,3 +15,9 @@ body{
     text-align: center;
 }
 
+.scroll {
+    position: fixed;
+    display: none;
+    bottom: 30px;
+    right: 30px;
+}
